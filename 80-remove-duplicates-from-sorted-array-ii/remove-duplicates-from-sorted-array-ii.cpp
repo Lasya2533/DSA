@@ -1,7 +1,7 @@
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
-    if(nums.size()<2){
+    if(nums.size()<=2){
         return nums.size();
     }
     int k=2;
